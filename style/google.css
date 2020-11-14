@@ -1,0 +1,126 @@
+.gb_D{
+    position: relative;
+    margin-top:auto;
+    margin-bottom: auto;
+    background-image:url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-position: -133px -44px;
+    display: inherit;
+    outline:none;
+    vertical-align:middle;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    height:30px;
+    width:30px;
+    color:#000;
+    cursor:pointer;
+    text-decoration:none;
+    text-align: justify;
+}
+
+.gb_search{
+    text-align: center;
+
+}
+.gb_btn{
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    min-width: 54px;
+    text-align: center;
+    user-select:none;
+    color: #3c4043;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+
+}
+
+
+.gb-sic-box{
+    text-align: inherit;
+    margin: auto;
+    font-size: small;
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+        padding-left: 16px;
+    padding-left: 14px;
+}
+.gb-sic {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+.gb_input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+        margin-top: 0px;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+
+    height: 34px;
+    font-size: 16px;
+    line-height: normal;
+    height: 34px !important;
+}
+
+.gb_field {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    width: auto;
+}
+
+.gb_title{
+    text-align: center;
+
+}
+
+.gb_footer{
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f2f2f2;
+    line-height:40px;
+    border-top: 1px solid #dadce0;
+    min-width: 400px;
+    font-size: 14px;
+   
+    position: absolute;
+
+}
+
+.gb_ftext{
+    bottom: 0;
+    margin-top: auto;
+    margin-left: 0;
+    z-index:1001;
+}
