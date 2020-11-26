@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Rock Paper Scissors" content="Javascript user input">
+        <title>JS Project</title>
+    </head> 
+    <body>
+    <script type="text/javascript">
+        var moves = ["rock","paper","scissors"];
+        var score = 0;
+        var userInput;
+    function computerPlay() {
+        // return one of three options in a string array 
+        return moves[Math.floor(Math.random()*3)];
+
+    }
+
+    function roundplay(playerInput, pcInput){
+        let results;
+        if(playerInput === pcInput) {
+            results = "tie";
+        } else {
+            if(playerInput === "rock") {
+                if(pcInput === "paper") {
+                    results =  "lost";
+                } else {
+                    results = "won";
+                    score++;
+                }
+            }
+            if(playerInput === "paper") {
+                if(pcInput ==="scissors") {
+                    results = "lost";
+                } else {
+                    results = "won";
+                    score++;
+                }
+            }
+            if(playerInput === "scissors") {
+                if(pcInput === "rock") {
+                    results = "lost";
+                } else {
+                    results = "won";
+                    score++;
+                }
+            }
+        }
+        return results;
+    }
+
+    function game() {
+        userInput = prompt("rock,paper or scissors", _defualt = "rock");
+        console.log("Print: ", userInput);
+        if(moves.indexOf(userInput)===0) {
+            console.log("Match Start: GO!");
+            console.log(userInput);
+            console.log(roundplay(userInput,computerPlay()));
+            console.log(score);
+        } else {
+            console.log("failed Entry");
+        }
+    }
+
+    game();
+    game();
+    game();
+    game();
+    game();
+    // Overall a loop would make more sense. thus allowing user to start and stop game. but we ain't upto that yet 
+    // so doing what can be done with just normal if and else and variable handling 
+    // the odin project
+
+</script>
+</body>
+</html>
