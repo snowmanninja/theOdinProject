@@ -52,7 +52,7 @@
     function game() {
         userInput = prompt("rock,paper or scissors", _defualt = "rock");
         console.log("Print: ", userInput);
-        if(moves.indexOf(userInput)===0) {
+        if(moves.indexOf(userInput)!= -1) {
             console.log("Match Start: GO!");
             console.log(userInput);
             console.log(roundplay(userInput,computerPlay()));
